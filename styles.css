@@ -93,7 +93,7 @@
     }
 
     footer {
-      background-color: #efe5cf;
+      background-color: #d7cebb;
       color: #e36b4e;
     }
 
@@ -162,3 +162,108 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+// Variables
+$primary-color: #2c3e50;
+$secondary-color: #18bc9c;
+$font-family: 'Montserrat', sans-serif;
+
+// Estilos generales
+body {
+  font-family: $font-family;
+  background-color: #f8f9fa;
+  color: $primary-color;
+}
+
+// Estilos para las tarjetas de habitaciones
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .card-title {
+    color: $secondary-color;
+  }
+}
+.room-card {
+  position: relative;
+  overflow: hidden;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 1rem;
+  }
+
+  &:hover .overlay {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: $color-fondo;
+  font-family: 'Arial', sans-serif;
+  color: $color-secundario;
+}
+
+.navbar {
+  background-color: $color-principal;
+
+  .navbar-brand {
+    font-family: 'Mr Dafoe', cursive;
+    color: $color-secundario;
+    font-size: 1.8rem;
+  }
+
+  .nav-link {
+    color: $color-secundario;
+
+    &:hover {
+      color: $color-destacado;
+    }
+  }
+}
+
+h1.mr-dafoe {
+  font-family: 'Mr Dafoe', cursive;
+  color: $color-principal;
+}
+
+.room-card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: $color-suave;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  &:hover .overlay {
+    opacity: 1;
+  }
+}
+
+footer {
+  background-color: $color-beige;
+  color: $color-secundario;
+}
+
