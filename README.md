@@ -1,9 +1,12 @@
-🌊 Hidden House – Montañita
+Coderhouse
 
-Sitio web desarrollado para un hostel de fiestas en Montañita, Ecuador, rodeado de naturaleza y frecuentado por viajeros de todo el mundo.
+Entrega 3
 
-✨ Descripción
-Este proyecto fue realizado como parte de la Entrega 3, integrando los conocimientos adquiridos en desarrollo web. El sitio ofrece un recorrido visual por un hostel donde se respira vida, comunidad y placer.
+Desarrollo web
+
+🌴Hidden House – Montañita
+
+Sitio web desarrollado para un hostel de fiestas en Montañita, Ecuador, rodeado de naturaleza y frecuentado por viajeros de todo el mundo donde se respira vida, comunidad y placer.
 
 🛠️ Tecnologías
 HTML5 semántico
